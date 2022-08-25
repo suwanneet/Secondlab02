@@ -1,9 +1,9 @@
-name: Second workflows
+name: Second workflow
 on:
   push:
     branches:
         - "main"
- jobs:
+jobs:
     unittest: 
         name: Unit Test
         runs-on: ubuntu-latest
